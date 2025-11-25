@@ -1,0 +1,85 @@
+.maisVendidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    font-family: var(--fonte-principal);
+    
+}
+.maisVendidos__titulo{
+    font-size: 32px;
+    font-family: var(--fonte-principal);
+    color: var(--white-color);
+    font-weight: 31.25rem;
+    padding: 0rem 68.1875rem 0rem  1.25rem ;
+}
+
+.lista__maisVendidos{
+    display: flex;
+    justify-content: space-between;
+}
+.maisVendidos__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  2.5rem 6.625rem 1.5625rem 0rem;
+    
+}
+.maisVendidos__imagem{
+    width: 9.375rem;
+    border-radius: 0.625rem;
+}
+.img-perfume{
+    width: 11.25rem;
+}
+.maisVendidos__descricao{
+    color: var(--white-color);
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-bottom: 2.125rem;
+}
+.maisVendidos__valor{
+    padding-bottom: 0.625rem;
+    font-size: 1.25rem;
+}
+.maisVendidos__valor-condicoes{
+    font-size: 1rem;
+    padding-bottom: 1.25rem;
+}
+.maisVendidos__botao-comprar{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 6.25rem;
+    font-size: 1.0625rem;
+    background-color: var(--cor-botao);
+    padding:0.5625rem 1.75rem 0.5625rem 1.75rem ;
+    border-radius: 1.125rem;
+    margin-right: 2.5rem;
+}
+@media screen and (max-width:720px){
+   
+    .lista__maisVendidos{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .maisVendidos__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  0.5rem 2.625rem 1.5625rem 1.8rem;
+    
+}
+.maisVendidos__descricao{
+    padding-bottom: 1rem;
+}
+
+.maisVendidos__titulo{
+    font-size: 28px;
+    padding: 3rem 30rem 0rem  1rem ;
+}
+.maisVendidos__imagem{
+    width: 8rem;
+}
+}
