@@ -1,0 +1,157 @@
+.miniaturas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.miniaturas__infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem ;
+    padding-right: 31.4rem;
+    color: var(--white-color);
+    font-family: var(--fonte-principal);
+}
+
+.miniaturas__infos-nome-produto {
+    font-size: 2.3rem;
+}
+
+.miniaturas__infos-valor {
+    font-size: 1.75rem;
+}
+
+.miniaturas__infos-parcelas {
+    font-size: 1.5rem;
+}
+
+.miniaturas__infos-frete {
+    font-size: 1rem;
+}
+
+.miniaturas__infos-tamanho {
+    font-size: 1rem;
+}
+
+.miniaturas__escolha-tamanho {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.miniaturas__botao-tamanho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: var(--white-color);
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 0.625rem;
+}
+
+.miniaturas__botao-tamanho:hover {
+    font-size: 1.5rem;
+    width: 2.3rem;
+    height: 1.8rem;
+}
+
+  /*PARTE SWIPER */
+.galeriaMain {
+  
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+.galeriaMain ,.swiper-slide img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 1rem;
+  image-rendering: auto;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/*MINIATURAS (THUMBS)*/
+
+.galeriaThumbs {
+  width: 12rem;
+  padding-right: 5rem;
+  margin-left: 10rem;
+  height: 31.25rem;
+}
+
+.galeriaThumbs .swiper-slide {
+    height: 5rem !important;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.galeriaThumbs .swiper-slide:hover {
+  transform: scale(1.05);
+}
+
+.galeriaThumbs .swiper-slide-thumb-active {
+  opacity: 1;
+  border: 0.125rem solid #007bff;
+  border-radius: 0.375rem;
+}
+
+.galeriaThumbs img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.375rem;
+  object-fit: cover;
+}
+@media screen and (max-width:720px){
+  .miniaturas{
+    
+  }
+  .miniaturas__infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem ;
+    padding-bottom: 6rem;
+    padding-right: 1.4rem;
+    color: var(--white-color);
+    font-family: var(--fonte-principal);
+}
+ .galeriaMain{
+    height: 30rem;
+    width: 100%;
+   
+ }
+.galeriaThumbs {
+    width: 15rem;
+    padding-right: 2rem;
+    margin-left: 2rem;
+    height: 30rem;
+}
+
+.miniaturas__infos-nome-produto {
+    font-size: 1.8rem;
+}
+
+.miniaturas__infos-valor {
+    font-size: 1.25rem;
+}
+
+.miniaturas__infos-parcelas {
+    font-size: 1rem;
+}
+
+.miniaturas__infos-frete {
+    font-size: 1rem;
+}
+
+.miniaturas__infos-tamanho {
+    font-size: 0.75rem;
+}
+
+.miniaturas__escolha-tamanho {
+    display: flex;
+    gap: 0.75rem;
+}
+}
