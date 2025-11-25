@@ -1,0 +1,42 @@
+@import url("header.css");
+@import url("maisVendidos.css");
+@import url("carrossel.css");
+@import url("cards.css");
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("miniaturas.css");
+@import url("footer.css");
+:root {
+    --black-color: black;
+    --cinza-claro: #C0BABA;
+    --cinza-botao: #B2B0B0;
+    --cinza-classic: #D9D9D9;
+    --cinza-escuro: #717070;
+    --white-color: white;
+    --fonte-principal:"Anton";
+    --fonte-titulo:"ABeeZee";
+    --background-color: #6CA7C1;
+    --cor-botao: #021745;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: linear-gradient(
+        45deg, #000000, #021745, #103179, #4CA3C9
+    );
+  }
+
+  /*AJUSTES GERAIS JS*/
+
+
+.swiper {
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+}

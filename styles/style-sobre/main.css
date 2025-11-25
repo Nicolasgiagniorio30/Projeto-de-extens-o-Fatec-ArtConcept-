@@ -1,0 +1,45 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(style.css);
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.sobre{
+    display: flex;
+}
+.sobre__conteudo-container{
+    padding: 1rem;
+}
+.sobre__conteudo{
+    font-size: 1.17rem;
+    color: var(--white-color);
+    line-height: 1.8rem;
+   font-family: var(--fonte-titulo);
+   text-align: justify;
+    padding: 0.6rem 0.7rem 0.3rem 0.5rem;
+}
+
+.sobre__titulo{
+    font-size: 4rem;
+    color: var(--white-color);
+    font-family: var(--fonte-principal);
+    
+}
+.sobre__subtitulo{
+    font-size:1.75rem;
+    color: var(--white-color);
+    font-family: var(--fonte-principal);
+    padding: 0.9rem 0.2rem 0rem 0.5rem;
+}
+
+.sobre__conteudo-imagem{
+    padding: 1.5rem 2rem 0rem 2rem;
+    
+}
+
+
+.sobre__imagem-fachada{
+    width: 38rem;
+    height: 42rem;
+    border-radius: 0.825rem;
+}

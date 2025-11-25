@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.3125rem;
+    padding: 2.5rem;
+    
+}
+.main__produto {
+    display: flex;
+    flex-direction: column;
+}
+.main__imagem{
+    width: 9.375rem;
+    border-radius: 0.625rem;
+}
+.main__descricao{
+    color: var(--white-color);
+    font-family: var(--fonte-principal);
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-bottom:2.125rem;
+}
+.main__valor{
+    color: var(--white-color);
+    padding-bottom: 0.625rem;
+    font-size: 1.25rem;
+    font-family: var(--fonte-principal);
+}
+.main__valor-condicoes{
+    color: var(--white-color);
+    font-size: 1rem;
+    padding-bottom: 1.25rem;
+    font-family: var(--fonte-principal);
+}
+.main__botao-comprar{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 6.25rem;
+    font-size: 1.0625rem;
+    background-color: var(--cor-botao);
+    padding: 0.5625rem 1.75rem 0.5625rem 1.75rem ;
+    border-radius: 1.125rem;
+    margin-right: 2.5rem;   
+}
